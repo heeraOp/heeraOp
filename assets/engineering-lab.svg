@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Heera's engineering lab</title>
+  <desc id="desc">A dark, futuristic systems diagram with animated network paths and the label Engineering at the edge of what's next.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/><stop offset="0.55" stop-color="#0a1020"/><stop offset="1" stop-color="#10152b"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39d5ff" stop-opacity="0"/><stop offset="0.48" stop-color="#39d5ff" stop-opacity=".9"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#22d3ee" stop-opacity=".2"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8aa4c8" stroke-opacity=".09" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1" fill="#8aa4c8" fill-opacity=".15"/>
+    </pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <ellipse cx="900" cy="120" rx="330" ry="220" fill="url(#glow)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M650 280 C770 250 760 95 900 95 S1030 230 1170 160" stroke="#2563eb" stroke-opacity=".34" stroke-width="1.5"/>
+    <path d="M665 304 C790 255 805 135 930 135 S1050 260 1190 195" stroke="#a78bfa" stroke-opacity=".35" stroke-width="1.5"/>
+    <path d="M700 240 C795 220 805 55 960 55 S1060 170 1185 120" stroke="#22d3ee" stroke-opacity=".28" stroke-width="1.5"/>
+    <path d="M655 280 C770 250 760 95 900 95 S1030 230 1170 160" stroke="url(#beam)" stroke-width="2">
+      <animate attributeName="stroke-dasharray" values="0 1200;180 1200;0 1200" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dashoffset" values="0;-1200" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#0c1728" stroke="#55d9f4" stroke-width="1.5">
+    <circle cx="900" cy="95" r="7"/><circle cx="930" cy="135" r="5"/><circle cx="960" cy="55" r="5"/>
+    <circle cx="1040" cy="205" r="6"/><circle cx="1115" cy="142" r="5"/><circle cx="1170" cy="160" r="7"/>
+  </g>
+  <g fill="#9fb3d1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">
+    <text x="64" y="72">SYSTEMS / AI / NETWORKS</text>
+    <text x="64" y="286">EXPERIMENTAL COMPUTING LAB</text>
+    <text x="1040" y="312">STATUS: EXPLORING</text>
+  </g>
+  <text x="60" y="157" fill="#f2f7ff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="46" font-weight="700" letter-spacing="1">ENGINEERING</text>
+  <text x="60" y="213" fill="#c4d2e8" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="400">at the edge of what's next.</text>
+  <rect x="63" y="239" width="185" height="2" rx="1" fill="#22d3ee"/>
+  <rect x="63" y="239" width="185" height="2" rx="1" fill="#22d3ee" filter="url(#soft)" opacity=".8">
+    <animate attributeName="x" values="-185;248" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
