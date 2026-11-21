@@ -1,18 +1,208 @@
-<div align="center"><img src="https://raw.githubusercontent.com/heeraOp/heera-portfolio/main/public/images/profile.jpg" alt="Wahengbam Heramani Singh" width="160" height="160" /><h1>WAHENGBAM HERAMANI SINGH</h1><p><strong>B.Tech CSE @ NIT Manipur · Systems, Applied AI &amp; Offline-First Engineering</strong></p><p>
-<a href="https://github.com/heeraOp"><img src="https://img.shields.io/badge/GitHub-heeraOp-0f172a?style=flat-square&logo=github&logoColor=white" alt="GitHub profile: heeraOp" /></a>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Focus-AI%2520%25C2%25B7%2520Offline%2520Mesh%2520%25C2%25B7%2520Systems-0e7490%3Fstyle%3Dflat-square" alt="Focus: AI, Offline Mesh, and Systems" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/SIH%25202026-National%2520Finalist-0284c7%3Fstyle%3Dflat-square" alt="Smart India Hackathon 2026 National Finalist" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/NIT%2520Manipur-Dept.%2520Batch%2520Lead-334155%3Fstyle%3Dflat-square" alt="Department Batch Lead at NIT Manipur" />
-</p><p><em>Engineering notebook — building practical software at the intersection of local-first AI, resilient networking, and cross-platform systems.</em></p></div>Signal & provenance: Every project below is tagged by maturity (Public Repo, Active Build, Upstream Fork). Exploration tracks are separated from shipped code—evidence over hype.Systems in the LabPAANGBA & ESIRE · Vernacular Eligibility & Document TrustSIH 2026 National Finalist · Active Build · Public Prototype: heeraOp/ESIREA vernacular eligibility and local document trust platform built with Team While True for rural citizens, NGOs, and lenders across Manipur and Northeast India, evolving out of the public ESIRE prototype.Deterministic scheme matching: Profile-aware eligibility workflows supporting Meiteilon voice and chat interfaces.3-layer local document forensics: Vernacular OCR (Meiteilon, Bengali, English), stamp/tamper detection, and dual-signature community attestation for Land Pattas and village certificates.Field readiness: Offline-first NGO field workflow designed for intermittent connectivity.Citizen Profile (Meiteilon / English) ──▶ Deterministic Eligibility Engine ──▶ Candidate Schemes
-                                                      │
-Local Document Capture ──▶ Vernacular OCR + Tamper Check + Dual Attestation ──▶ Readiness Package
-MeshPulse (ReliefSync Manipur) · Offline-First Emergency MeshActive Android Prototype · Delay-Tolerant NetworkingAn offline-first Android emergency communication app built for zero-connectivity disaster and relief coordination (developed for the MASTEC Dr. Ibeyaima Innovation Award 2026).Zero-infrastructure transport: Bare React Native (Community CLI) with Google Nearby Connections API (P2P_CLUSTER) for BLE discovery and Wi-Fi Direct transfer.Volunteer-backbone DTN: Lightweight <1 KB JSON packets relayed across nodal officers, volunteers, and supply drivers with hopsLeft: 5 TTL and AsyncStorage msg_id deduplication.Camp Nodal Officer / Resident ──▶ <1 KB Alert Packet (TTL: 5) ──▶ 15s BLE/Wi-Fi Direct Sync ──▶ Volunteer Data Mule ──▶ Neighboring Relief Camp
-Web & Interactive EngineeringPublic RepositoriesRepositoryStackScopeheera-portfolioReact, TypeScript, ViteStatic engineering portfolio with GitHub Pages CI/CDgithub_portfolioJavaScriptEarlier portfolio build with project and stack notesscigenesis-coachingTypeScriptCoaching & learning platform web applicationLuwangMaheikolCoachingTypeScriptCoaching platform web applicationREA · Agent & MCP Interface StudyUpstream Fork · Fork: heeraOp/rea · Upstream: morluto/reaA study fork of morluto/rea used to examine Model Context Protocol (MCP) interfaces, tool boundaries, and agent-assisted software analysis.Domain MapDomainIn Public & Active WorkCurrent FrontierApplied AI & Document TrustPAANGBA & ESIRE: vernacular eligibility matching, OCR, and document verification pipelinesLocal LLM inference, grounded generation, GraphRAG, and retrieval evaluationOffline-First & Mesh SystemsMeshPulse: Android DTN relay over BLE and Wi-Fi Direct (P2P_CLUSTER)Store-and-forward protocols, decentralized sync, and fault-tolerant edge nodesAgentic SystemsREA fork study of MCP-based software analysisMCP servers/clients, safe tool boundaries, orchestration, and observabilityWeb, Mobile & Cross-PlatformReact/TypeScript web apps, bare React Native Android builds, Three.js 3D scenes, Tauri 2.0Real-time WebSocket services, Redis queues, and lightweight native shellsSystems, Security & EdgeContainerized Linux deployments and hardened local-first architecturesZero-trust networking, Linux hardening, and constrained-device inferenceTechnical StackLayerCore & ActivePrototyping & ExploringLanguages & UITypeScript, JavaScript, Python, React, ViteThree.js (3D scenes & camera controls)Mobile & DesktopReact Native (Community CLI & Expo), Android StudioTauri 2.0Backend & DataFastAPI, Django, REST APIs, PostgreSQL, MongoDB, Redis, WebSocketsNeo4jAI, Verification & MeshGoogle Nearby Connections API, Vernacular OCR, Rule EnginesOllama (local LLMs), RAG / GraphRAG, MCP, Z3InfrastructureLinux, Docker, Nginx, GitHub Pages, GitStore-and-forward edge sync<details>
-<summary><strong>Exploration Roadmap (Learning Directions — Not Claimed as Production Services)</strong></summary><br />Agentic AI: MCP server/client design, strict tool boundaries, multi-agent delegation, and execution observability.Local Intelligence: Ollama and small-model inference, retrieval-augmented generation, embeddings, and strict data locality.Resilient Networking: Store-and-forward DTN patterns, intermittently connected mobile meshes, and zero-infrastructure sync.Distributed & Real-Time Systems: Event-driven workflows, background job queues, and fault-tolerant coordination.Defensive Security: Zero-trust defaults, Linux hardening, and threat modeling for offline-first field apps.</details>GitHub Activity<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=heeraOp&show_icons=true&hide_border=true&theme=transparent&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&rank_icon=github" alt="GitHub profile statistics for heeraOp" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heeraOp&layout=compact&hide_border=true&theme=transparent&title_color=38bdf8&text_color=94a3b8" alt="Most-used public repository languages for heeraOp" height="165" />
-<br />
-<img src="https://www.google.com/search?q=https://ghchart.rshah.org/0284c7/heeraOp" alt="GitHub contribution activity graph for heeraOp" width="90%" />
-<br />
-<sub>Live cards reflect public GitHub activity via third-party stats endpoints.</sub>
-</div>Connect & CollaborateInterested in local-first AI, offline mesh networking, MCP tooling, or cross-platform systems? Open an issue or discussion in any repository, or reach out via GitHub.<p align="center"><sub>Curiosity-driven engineering · evidence over hype · prototypes clearly labeled</sub></p>
+# SYSTEMS / AI / NETWORKS
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/heeraOp/heeraOp/main/assets/engineering-lab.svg" width="100%" alt="Animated Engineering Lab Banner"/>
+</p>
+
+<h1 align="center">WAHENGBAM HERAMANI SINGH</h1>
+
+<p align="center">
+  <img src="https://github.com/heeraOp.png" width="155" alt="GitHub profile photograph"/>
+</p>
+
+<p align="center">
+  <strong>@heeraOp</strong>
+  <br/>
+  B.Tech CSE Student · Software Developer · AI & Systems Explorer
+</p>
+
+<p align="center">
+  <a href="https://github.com/heeraOp">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/wahengbam-heeramani-singh-6648263a3">LinkedIn</a> ·
+  <a href="https://heeraop.github.io/heera-portfolio/">Portfolio</a>
+</p>
+
+---
+
+<h2 align="center">HEERA · ENGINEERING NOTEBOOK</h2>
+
+<p align="center">
+  <em>Building intelligent systems at the intersection of AI, resilient infrastructure and unconventional computing.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FOCUS-Systems%20%2F%20AI%20%2F%20Networks-0891b2?style=flat-square"/>
+  <img src="https://img.shields.io/badge/ENVIRONMENT-Linux-334155?style=flat-square&logo=linux"/>
+  <img src="https://img.shields.io/badge/STATUS-Exploring-7c3aed?style=flat-square"/>
+</p>
+
+---
+
+## 01 / TECHNOLOGY ECOSYSTEM
+
+| SYSTEMS | INTELLIGENCE | INFRASTRUCTURE |
+|---|---|---|
+| Distributed systems | Agentic AI | Linux |
+| Mesh networking | MCP | Docker |
+| P2P communication | Local LLMs | Nginx |
+| Edge computing | RAG / GraphRAG | PostgreSQL |
+| Offline-first systems | Multi-agent systems | Redis |
+| Network engineering | Vector databases | Cloud infrastructure |
+
+## 02 / ENGINEERING PROJECTS
+
+### **01 — PAANGBA**
+`AI` `FINTECH` `DOCUMENT INTELLIGENCE`
+
+```mermaid
+flowchart LR
+    A[User Profile] --> B[Information Processing]
+    B --> C[Eligibility Matching]
+    C --> D[Verification]
+    D --> E[Relevant Opportunities]
+```
+
+### **02 — HOUSEY**
+`REAL-TIME SYSTEMS` `WEBSOCKETS` `DISTRIBUTED APPLICATIONS`
+
+```mermaid
+flowchart LR
+    A[Players] --> B[React Frontend]
+    B <--> C[Django Backend]
+    C <--> D[WebSocket Layer]
+    C --> E[Redis]
+    C --> F[PostgreSQL]
+    E --> G[Background Tasks]
+```
+
+### **03 — COACHING WEBSITE**
+`SERVERLESS` `CONTENT MANAGEMENT` `CLOUD STORAGE`
+
+```mermaid
+flowchart LR
+    A[Teacher] --> B[Upload Interface]
+    B --> C[Google Apps Script]
+    C --> D[Google Drive]
+    C --> E[Google Sheets]
+    D --> F[Student Interface]
+```
+
+### **04 — OFFLINE MESH COMMUNICATION**
+`MESH NETWORKING` `DISASTER RESPONSE` `OFFLINE-FIRST`
+
+```mermaid
+flowchart TD
+    A[Relief Camp A] <--> B[Relief Camp B]
+    B <--> C[Relief Camp C]
+    C <--> D[Relief Camp D]
+
+    A --> E[Local Message Store]
+    B --> F[Message Forwarding]
+    C --> F
+    F --> G[Message Synchronization]
+```
+
+### **05 — AI-DRIVEN SCHEME MATCHING**
+`RECOMMENDATION SYSTEMS` `AI` `ELIGIBILITY`
+
+```mermaid
+flowchart LR
+    A[Entrepreneur Profile] --> B[Scheme Discovery]
+    B --> C[Eligibility Evaluation]
+    C --> D[Recommendation]
+```
+
+### **06 — APPLIED LLM & RAG EXPLORATION**
+`LOCAL INFERENCE` `RAG` `VECTOR SEARCH`
+
+```mermaid
+flowchart LR
+    A[Documents] --> B[Embedding Pipeline]
+    B --> C[Vector Database]
+    D[User Query] --> E[Retriever]
+    C --> E
+    E --> F[LLM]
+    F --> G[Grounded Response]
+```
+
+---
+
+## 03 / EMERGING TECHNOLOGY FRONTIER
+
+| RESEARCH AREA | EXPLORATION |
+|---|---|
+| Agentic AI | MCP, autonomous agents, tool calling |
+| Local intelligence | Ollama, local inference, RAG |
+| Advanced retrieval | GraphRAG, embeddings, semantic search |
+| Distributed computing | P2P, decentralization, fault tolerance |
+| Edge intelligence | Edge AI, constrained inference |
+| Resilient networking | Mesh, offline-first, store-and-forward |
+| Cybersecurity | Zero-trust, Linux security, network defense |
+| Autonomous engineering | AI orchestration, code agents, evaluation |
+
+*These are exploration areas, not claims of completed implementations.*
+
+---
+
+## 04 / TECHNICAL STACK
+
+**LANGUAGES**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts,html,css,sql" alt="Programming languages"/>
+</p>
+
+**FRAMEWORKS & BACKEND**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,django,nodejs,postgres,redis,docker" alt="Frameworks and backend tools"/>
+</p>
+
+**INFRASTRUCTURE & DEVELOPMENT**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,ubuntu,nginx,git,github,bash,vscode" alt="Infrastructure and development tools"/>
+</p>
+
+**AI & INTELLIGENT SYSTEMS**
+
+`OLLAMA` · `RAG` · `QDRANT` · `MCP` · `EMBEDDINGS` · `LOCAL LLMS`
+
+---
+
+## 05 / GITHUB CONTRIBUTION & ACTIVITY
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=heeraOp&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" width="49%" alt="GitHub statistics"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heeraOp&layout=compact&hide_border=true&theme=transparent" width="49%" alt="Top programming languages"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=heeraOp&theme=transparent&hide_border=true" width="80%" alt="GitHub contribution streak"/>
+</p>
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/0891b2/heeraOp" width="95%" alt="GitHub contribution graph"/>
+</p>
+
+<sub>Statistics and contribution visualizations are supplied by external services and may occasionally be unavailable.</sub>
+
+---
+
+## 06 / CONNECT
+
+<p align="center">
+  <a href="https://github.com/heeraOp">
+    <img src="https://img.shields.io/badge/GitHub-heeraOp-181717?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://www.linkedin.com/in/wahengbam-heeramani-singh-6648263a3">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="https://heeraop.github.io/heera-portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-Explore-0891b2?style=for-the-badge"/>
+  </a>
+</p>
+
+<p align="center">
+  <sub>BUILD · EXPERIMENT · EXPLORE · ENGINEER</sub>
+</p>
