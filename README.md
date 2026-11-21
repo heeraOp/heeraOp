@@ -1,208 +1,267 @@
 # SYSTEMS / AI / NETWORKS
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/heeraOp/heeraOp/main/assets/engineering-lab.svg" width="100%" alt="Animated Engineering Lab Banner"/>
-</p>
-
-<h1 align="center">WAHENGBAM HERAMANI SINGH</h1>
-
-<p align="center">
-  <img src="https://github.com/heeraOp.png" width="155" alt="GitHub profile photograph"/>
+  <img src="https://raw.githubusercontent.com/heeraOp/heeraOp/main/assets/engineering-lab.svg" width="100%" alt="Engineering Lab — Animated Systems Banner"/>
 </p>
 
 <p align="center">
-  <strong>@heeraOp</strong>
-  <br/>
-  B.Tech CSE Student · Software Developer · AI & Systems Explorer
+  <img src="https://img.shields.io/badge/INTELLIGENCE-ARTIFICIAL-0891b2?style=flat-square"/>
+  <img src="https://img.shields.io/badge/COMPUTING-DISTRIBUTED-7c3aed?style=flat-square"/>
+  <img src="https://img.shields.io/badge/NETWORKS-RESILIENT-0e7490?style=flat-square"/>
+  <img src="https://img.shields.io/badge/STATUS-EXPLORING-16a34a?style=flat-square"/>
+</p>
+
+<h1 align="center">ENGINEERING AT THE EDGE OF WHAT'S NEXT.</h1>
+
+<p align="center">
+  <strong>Intelligent systems. Autonomous software. Resilient infrastructure.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/heeraOp">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/wahengbam-heeramani-singh-6648263a3">LinkedIn</a> ·
-  <a href="https://heeraop.github.io/heera-portfolio/">Portfolio</a>
+  Exploring the intersection of emerging technologies, unconventional computing and practical engineering.
 </p>
 
 ---
 
-<h2 align="center">HEERA · ENGINEERING NOTEBOOK</h2>
+## ◈ 01 — SYSTEMS IN THE LAB
 
-<p align="center">
-  <em>Building intelligent systems at the intersection of AI, resilient infrastructure and unconventional computing.</em>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/FOCUS-Systems%20%2F%20AI%20%2F%20Networks-0891b2?style=flat-square"/>
-  <img src="https://img.shields.io/badge/ENVIRONMENT-Linux-334155?style=flat-square&logo=linux"/>
-  <img src="https://img.shields.io/badge/STATUS-Exploring-7c3aed?style=flat-square"/>
-</p>
+### 01 / APPLIED INTELLIGENCE
+
+- Agentic AI
+- Model Context Protocol
+- Multi-agent orchestration
+- Local LLM inference
+- RAG / GraphRAG
+- Semantic retrieval
+
+</td>
+<td width="50%" valign="top">
+
+### 02 / DISTRIBUTED COMPUTING
+
+- Peer-to-peer systems
+- Mesh networking
+- Edge computing
+- Fault-tolerant systems
+- Offline-first architecture
+- Decentralized coordination
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 03 / INFRASTRUCTURE
+
+- Linux engineering
+- Container orchestration
+- Event-driven architecture
+- Real-time communication
+- Database systems
+- Cloud-native deployment
+
+</td>
+<td width="50%" valign="top">
+
+### 04 / SECURITY & COMPUTING
+
+- Zero-trust architecture
+- Network security
+- Defensive engineering
+- Autonomous code agents
+- Constrained-device inference
+- Experimental runtimes
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 01 / TECHNOLOGY ECOSYSTEM
+## ◈ 02 — ENGINEERING PROJECTS
 
-| SYSTEMS | INTELLIGENCE | INFRASTRUCTURE |
-|---|---|---|
-| Distributed systems | Agentic AI | Linux |
-| Mesh networking | MCP | Docker |
-| P2P communication | Local LLMs | Nginx |
-| Edge computing | RAG / GraphRAG | PostgreSQL |
-| Offline-first systems | Multi-agent systems | Redis |
-| Network engineering | Vector databases | Cloud infrastructure |
+<details>
+<summary><strong>01. PAANGBA — AI-Assisted Financial Access & Lender Matching</strong></summary>
 
-## 02 / ENGINEERING PROJECTS
-
-### **01 — PAANGBA**
-`AI` `FINTECH` `DOCUMENT INTELLIGENCE`
+`APPLIED AI` `DOCUMENT INTELLIGENCE` `RECOMMENDATION SYSTEMS`
 
 ```mermaid
 flowchart LR
-    A[User Profile] --> B[Information Processing]
-    B --> C[Eligibility Matching]
+    A[Citizen] --> B[Profile]
+    B --> C[Matching Engine]
     C --> D[Verification]
     D --> E[Relevant Opportunities]
 ```
+</details>
 
-### **02 — HOUSEY**
-`REAL-TIME SYSTEMS` `WEBSOCKETS` `DISTRIBUTED APPLICATIONS`
+<details>
+<summary><strong>02. HOUSEY — Real-Time Multiplayer Gaming Platform</strong></summary>
 
-```mermaid
-flowchart LR
-    A[Players] --> B[React Frontend]
-    B <--> C[Django Backend]
-    C <--> D[WebSocket Layer]
-    C --> E[Redis]
-    C --> F[PostgreSQL]
-    E --> G[Background Tasks]
-```
-
-### **03 — COACHING WEBSITE**
-`SERVERLESS` `CONTENT MANAGEMENT` `CLOUD STORAGE`
-
-```mermaid
-flowchart LR
-    A[Teacher] --> B[Upload Interface]
-    B --> C[Google Apps Script]
-    C --> D[Google Drive]
-    C --> E[Google Sheets]
-    D --> F[Student Interface]
-```
-
-### **04 — OFFLINE MESH COMMUNICATION**
-`MESH NETWORKING` `DISASTER RESPONSE` `OFFLINE-FIRST`
+`DJANGO` `WEBSOCKETS` `REDIS` `POSTGRESQL`
 
 ```mermaid
 flowchart TD
-    A[Relief Camp A] <--> B[Relief Camp B]
-    B <--> C[Relief Camp C]
-    C <--> D[Relief Camp D]
-
-    A --> E[Local Message Store]
-    B --> F[Message Forwarding]
-    C --> F
-    F --> G[Message Synchronization]
+    A[React Clients] <--> B[Django Backend]
+    B <--> C[WebSocket Layer]
+    B --> D[Redis]
+    B --> E[PostgreSQL]
+    D --> F[Background Tasks]
 ```
+</details>
 
-### **05 — AI-DRIVEN SCHEME MATCHING**
-`RECOMMENDATION SYSTEMS` `AI` `ELIGIBILITY`
+<details>
+<summary><strong>03. COACHING WEBSITE — Serverless Content Management</strong></summary>
+
+`REACT` `GOOGLE DRIVE` `GOOGLE SHEETS`
 
 ```mermaid
 flowchart LR
-    A[Entrepreneur Profile] --> B[Scheme Discovery]
+    A[Teacher] --> B[Upload]
+    B --> C[Apps Script]
+    C --> D[Google Drive]
+    C --> E[Google Sheets]
+    D --> F[Student Portal]
+```
+</details>
+
+<details>
+<summary><strong>04. OFFLINE MESH — Disaster Relief Communication</strong></summary>
+
+`DISTRIBUTED NETWORKING` `OFFLINE-FIRST` `STORE-AND-FORWARD`
+
+```mermaid
+flowchart LR
+    A[Node A] <--> B[Node B]
+    B <--> C[Node C]
+    C <--> D[Node D]
+    B --> E[Message Synchronization]
+```
+</details>
+
+<details>
+<summary><strong>05. ESIRE — Scheme Intelligence & Eligibility Engine</strong></summary>
+
+`AI` `SCHEME DISCOVERY` `CONSTRAINT REASONING`
+
+```mermaid
+flowchart TD
+    A[User Profile] --> B[Scheme Discovery]
     B --> C[Eligibility Evaluation]
     C --> D[Recommendation]
 ```
+</details>
 
-### **06 — APPLIED LLM & RAG EXPLORATION**
-`LOCAL INFERENCE` `RAG` `VECTOR SEARCH`
+<details>
+<summary><strong>06. LLM & RAG — Applied Intelligence Exploration</strong></summary>
+
+`LOCAL INFERENCE` `VECTOR DATABASES` `RETRIEVAL`
 
 ```mermaid
 flowchart LR
-    A[Documents] --> B[Embedding Pipeline]
+    A[Documents] --> B[Embeddings]
     B --> C[Vector Database]
-    D[User Query] --> E[Retriever]
+    D[Query] --> E[Retriever]
     C --> E
     E --> F[LLM]
-    F --> G[Grounded Response]
+    F --> G[Response]
 ```
+</details>
 
 ---
 
-## 03 / EMERGING TECHNOLOGY FRONTIER
+## ◈ 03 — THE EMERGING TECHNOLOGY FRONTIER
 
-| RESEARCH AREA | EXPLORATION |
+<p align="center">
+  <strong>BEYOND CONVENTIONAL SOFTWARE ENGINEERING</strong>
+</p>
+
+| DOMAIN | TECHNOLOGIES & CONCEPTS |
 |---|---|
-| Agentic AI | MCP, autonomous agents, tool calling |
-| Local intelligence | Ollama, local inference, RAG |
-| Advanced retrieval | GraphRAG, embeddings, semantic search |
-| Distributed computing | P2P, decentralization, fault tolerance |
-| Edge intelligence | Edge AI, constrained inference |
-| Resilient networking | Mesh, offline-first, store-and-forward |
-| Cybersecurity | Zero-trust, Linux security, network defense |
-| Autonomous engineering | AI orchestration, code agents, evaluation |
+| Agentic intelligence | MCP, autonomous agents, tool orchestration |
+| Cognitive computing | GraphRAG, semantic memory, knowledge graphs |
+| Local intelligence | Ollama, quantized LLMs, inference optimization |
+| Distributed intelligence | P2P, decentralized coordination, edge AI |
+| Network evolution | Mesh networking, self-healing networks |
+| Autonomous engineering | AI coding agents, evaluation, guardrails |
+| Experimental computing | Neuromorphic computing, unconventional architectures |
+| Cybersecurity | Zero-trust, Linux hardening, network defense |
 
-*These are exploration areas, not claims of completed implementations.*
+<p align="center">
+  <sub>Exploration areas and research interests — not claims of completed implementations.</sub>
+</p>
 
 ---
 
-## 04 / TECHNICAL STACK
+## ◈ 04 — TECHNOLOGY STACK
 
 **LANGUAGES**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts,html,css,sql" alt="Programming languages"/>
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,js,ts,html,css,sql"/>
 </p>
 
-**FRAMEWORKS & BACKEND**
+**FRAMEWORKS & SYSTEMS**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,django,nodejs,postgres,redis,docker" alt="Frameworks and backend tools"/>
+  <img src="https://skillicons.dev/icons?i=react,django,nodejs,postgres,redis,docker"/>
 </p>
 
-**INFRASTRUCTURE & DEVELOPMENT**
+**INFRASTRUCTURE**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=linux,ubuntu,nginx,git,github,bash,vscode" alt="Infrastructure and development tools"/>
+  <img src="https://skillicons.dev/icons?i=linux,ubuntu,nginx,bash,git,github,vscode"/>
 </p>
 
-**AI & INTELLIGENT SYSTEMS**
+**AI ECOSYSTEM**
 
-`OLLAMA` · `RAG` · `QDRANT` · `MCP` · `EMBEDDINGS` · `LOCAL LLMS`
+`OLLAMA` · `RAG` · `QDRANT` · `MCP` · `EMBEDDINGS` · `VECTOR SEARCH`
 
 ---
 
-## 05 / GITHUB CONTRIBUTION & ACTIVITY
+## ◈ 05 — GITHUB TELEMETRY
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=heeraOp&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" width="49%" alt="GitHub statistics"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heeraOp&layout=compact&hide_border=true&theme=transparent" width="49%" alt="Top programming languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=heeraOp&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" width="49%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heeraOp&layout=compact&hide_border=true&theme=transparent" width="49%"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=heeraOp&theme=transparent&hide_border=true" width="80%" alt="GitHub contribution streak"/>
+  <img src="https://streak-stats.demolab.com?user=heeraOp&theme=transparent&hide_border=true" width="80%"/>
 </p>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/0891b2/heeraOp" width="95%" alt="GitHub contribution graph"/>
+  <img src="https://ghchart.rshah.org/0891b2/heeraOp" width="95%"/>
 </p>
-
-<sub>Statistics and contribution visualizations are supplied by external services and may occasionally be unavailable.</sub>
 
 ---
 
-## 06 / CONNECT
+## ◈ 06 — CURRENT EXPLORATION
+
+```text
+[ ACTIVE RESEARCH ]
+
+01  Agentic AI & MCP ecosystems
+02  Local LLM deployment and optimization
+03  Distributed and offline-first systems
+04  Advanced retrieval architectures
+05  Linux internals and network engineering
+06  AI-assisted autonomous development
+
+[ PRINCIPLE ]
+
+Build → Experiment → Measure → Improve
+```
+
+---
 
 <p align="center">
-  <a href="https://github.com/heeraOp">
-    <img src="https://img.shields.io/badge/GitHub-heeraOp-181717?style=for-the-badge&logo=github"/>
-  </a>
-  <a href="https://www.linkedin.com/in/wahengbam-heeramani-singh-6648263a3">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
-  </a>
-  <a href="https://heeraop.github.io/heera-portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-Explore-0891b2?style=for-the-badge"/>
-  </a>
+  <strong>ENGINEERED WITH CURIOSITY. BUILT THROUGH EXPERIMENTATION.</strong>
 </p>
 
 <p align="center">
-  <sub>BUILD · EXPERIMENT · EXPLORE · ENGINEER</sub>
+  <sub>Systems / Intelligence / Networks / Experimental Computing</sub>
 </p>
