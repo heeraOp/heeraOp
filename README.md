@@ -20,7 +20,6 @@
 - Exploring software engineering, cybersecurity, and AI.
 - Building full-stack applications and practical developer tools.
 - Interested in backend systems, networking, and automation.
-- Learning by building and contributing to open source.
 
 ### Tech Stack
 
